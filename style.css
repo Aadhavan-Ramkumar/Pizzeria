@@ -1,9 +1,9 @@
 body {
 	background-image: url("Background.jpg");
-	/* background-repeat: no-repeat; */
+	background-repeat: no-repeat;
 }
 
-.topnav {
+.Navigation {
 	overflow: hidden;
 	background-color: #333;
 	position: sticky;
@@ -11,7 +11,7 @@ body {
 	width: 100%;
 }
 
-.topnav a {
+.Navigation a {
 	float: left;
 	color: #f2f2f2;
 	font-family: cursive;
@@ -21,28 +21,28 @@ body {
 	font-size: 17px;
 }
 
-.topnav a:hover {
+.Navigation a:hover {
 	background-color: #bbb;
 	color: black;
 }
 
-.topnav-right {
+.Navigation-right {
 	float: right;
 }
 
-.row::after {
+.Row::after {
 	content: "";
 	clear: both;
 	display: table;
 }
 
-.img_div {
+.ImgDiv {
 	float: left;
 	width: 50%;
 	padding: 5px;
 }
 
-.menu_div {
+.MenuDiv {
 	float: right;
 	width: 50%;
 	padding: 160px;
@@ -51,26 +51,26 @@ body {
 	font-family: cursive;
 }
 
-#menu_list {
+#MenuList {
 	background-color: #f5c71a;
 	color: black;
 	width: 200px;
 	border: none;
 }
 
-.newRow::after {
+.NewRow::after {
 	content: "";
 	clear: both;
 	display: table;
 }
 
-.block1 {
+.Block1 {
 	float: left;
 	width: 20%;
 	padding: 5px;
 }
 
-.block2 {
+.Block2 {
 	float: left;
 	width: 80%;
 	padding: 5px;
@@ -79,8 +79,7 @@ body {
 	font-family: cursive;
 }
 
-#add_toppings {
-	/* padding-left:30px; */
+#AddToppings {
 	width: 200px;
 	height: 180px;
 	border: none;
@@ -90,7 +89,7 @@ body {
 	font-family: cursive;
 }
 
-#add_item {
+#AddItem {
 	font-family: cursive;
 	font-size: 15px;
 	line-height: 20px;
@@ -110,17 +109,17 @@ body {
 	color: white;
 }
 
-ol.menulist>li {
+ol.Menulist>li {
 	padding-bottom: 20px;
 }
 
-.cards {
+.Cards {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
 
-div.card {
+div.Card {
 	flex: 0 0 30%;
 	box-sizing: border-box;
 	color: black;
@@ -130,7 +129,7 @@ div.card {
 	font-size: medium;
 }
 
-.card img {
+.Card img {
 	width: 100px;
 	height: 80px;
 }
